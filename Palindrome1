@@ -9,7 +9,7 @@ return factor;
 reverse("str");
 
 let answer = reverse(str);
-if(answer!=str){
+if(answer==str){
 console.log(str, " is Palindrome");
 }else{
 console.log(str, "not a Palindrome");
